@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Biz haqimizda</title>
+</head>
+</html>
+
+{% extends 'base.html'%}
+{% load static %}
+{% block title %} Biz haqimizda - {{ setting.title }}{% endblock %}
+{% block description %}  {{ setting.description }}{% endblock %}
+{% block keywords %}  {{ setting.keywords }}{% endblock %}
+
+
+
+{% block body %}
+
+{% block header %}{% include 'header.html' %}{% endblock %}
+
+
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Biz haqimizda</h2>
+                            <p>Asosiy <span class="ti-angle-double-right"></span>Biz haqimizda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+     <!-- about part start-->
+    <section class="about_part">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-lg-6">
+                    <div class="about_img ">
+                        <img src="{% static 'img/about_us_1.png' %}" class="about_img_1" alt="">
+                        <img src="{% static 'img/about_us_2.png' %}" class="about_img_2" alt="">
+                        <img src="{% static 'img/about_us_3.png' %}" class="about_img_3" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 offset-md-1 col-lg-3 offset-lg-1">
+                    <div class="about_text">
+                        <h5>Biz haqimizda</h5>
+                        <h2>Orzuyingizdagidek soch turmagi</h2>
+                        <p>Bizning Master X dagi eng kuchli Masterlarimizda sochingizni oldiring, va chiroyli soch turmagingiz
+                        bilan do'stlaringizni hayratda qoldiring. Bizga hozirning o'zida onlayn yoziling, va joy band qiling.
+                            Chiroyli ko'rinish 100% kafolatlanadi</p>
+                        <div class="form-group mt-3">
+                          <a href="/#onlaynyozilish"><button  type="submit" class="button button-contactForm btn_4">Hoziroq onlayn yozilish</button></a>
+                        </div>
+                    </form>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <section class="artist_part">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-lg-6 col-sm-10">
+                    <div class="section_tittle">
+                        <img src="{% static 'img/section_tittle_icon.png' %}" alt="icon">
+                        <h2>Bizning Masterlarimiz</h2>
+                        <p>Bizning Master X dagi tajribali Masterlarimiz bilan tanishing. Va onlayn yoziling.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="{% static 'img/artist/artist_1.png' %}" alt="artist">
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text text-center">
+                                <h3>Shaxboz Sultonov</h3>
+                                <p>O'rta darajadagi Master</p>
+                                <div class="social_icon">
+                                    <a href="tel://+998994724997"> <i class="fas fa-phone"></i> </a>
+                                    <a href="https://t.me/ZDEVPRO"> <i class="fab fa-telegram"></i> </a>
+                                    <a href="https://ig.me/ZDEVPRO"> <i class="ti-instagram"></i> </a>
+                                    <a href="tel://+998994724997"> <i class="fab fa-whatsapp"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                                <img src="{% static 'img/artist/artist_2.png' %}" alt="artist">
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text text-center">
+                                <h3>Umid Jalilov</h3>
+                                <p>Kuchli toifali Master</p>
+                                <div class="social_icon">
+                                    <a href="tel://+998994724997"> <i class="fas fa-phone"></i> </a>
+                                    <a href="https://t.me/ZDEVPRO"> <i class="fab fa-telegram"></i> </a>
+                                    <a href="https://ig.me/ZDEVPRO"> <i class="ti-instagram"></i> </a>
+                                    <a href="tel://+998994724997"> <i class="fab fa-whatsapp"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                                <img src="{% static 'img/artist/artist_3.png' %}" alt="artist">
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text text-center">
+                                <h3>Sardor Ubaydullayev</h3>
+                                <p>O'rta darajadagi Master</p>
+                                <div class="social_icon">
+                                    <a href="tel://+998994724997"> <i class="fas fa-phone"></i> </a>
+                                    <a href="https://t.me/ZDEVPRO"> <i class="fab fa-telegram"></i> </a>
+                                    <a href="https://ig.me/ZDEVPRO"> <i class="ti-instagram"></i> </a>
+                                    <a href="tel://+998994724997"> <i class="fab fa-whatsapp"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::chefs_part end::-->
+
+{% endblock %}
+{% block footer %}{% include 'footer.html' %}{% endblock %}

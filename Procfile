@@ -1,0 +1,1 @@
+web: gunicorn Master_X.wsgi --log-file -
